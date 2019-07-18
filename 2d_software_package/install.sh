@@ -1,7 +1,7 @@
 #!/bin/bash
 tar -zxvf  rcssserver-15.5.0.tar.gz
 cd rcssserver-15.5.0
-./configure  CXXFLAGS='-std=c++03'
+./configure  CXXFLAGS='-std=c++14'
 make
 sudo make install
 cd ..
